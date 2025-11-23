@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Five-lobed leaf: prominent pointed top lobe (largest), two rounded side lobes (medium), two smaller bottom lobes -->
+  <path d="M 100 10 
+           C 105 8 110 7 115 9
+           C 120 11 125 15 128 22
+           C 130 28 130 35 128 42
+           C 125 48 120 52 115 55
+           C 118 60 122 65 125 72
+           C 127 78 127 85 125 92
+           C 122 98 118 102 115 105
+           C 110 108 105 110 100 112
+           C 95 110 90 108 85 105
+           C 82 102 78 98 75 92
+           C 73 85 73 78 75 72
+           C 78 65 82 60 85 55
+           C 80 52 75 48 72 42
+           C 70 35 70 28 72 22
+           C 75 15 80 11 85 9
+           C 90 7 95 8 100 10 Z" 
+        fill="none" 
+        stroke="#3B82F6" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Internal veins radiating from center (100, 100) to each lobe tip -->
+  <line x1="100" y1="100" x2="100" y2="10" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <line x1="100" y1="100" x2="128" y2="22" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <line x1="100" y1="100" x2="72" y2="22" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <line x1="100" y1="100" x2="125" y2="92" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <line x1="100" y1="100" x2="75" y2="92" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+</svg>
